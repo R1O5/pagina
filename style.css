@@ -48,13 +48,39 @@ a {
     border: 1px solid #5D6D7E;
 }
 .container-main {
-    width: 550px;
+    border-top: 1px solid #D0D3D4;
+    border-bottom: 1px solid #D0D3D4;
+    width: 700px;
     margin: auto;
     color: #D0D3D4;
     font-size: 50px;
     display: flex;
-    padding: 20px;
-    text-shadow: 0.2em 0.2em #333
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-shadow: 0.2em 0.2em #333;
+}
+.tecnologies {
+    margin: auto;
+    width: 1500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 120px;
+}
+.tecnologies i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D0D3D4;
+    font-size: 160px;
+}
+.tecnologies div{
+    padding: 5px;
+}
+.tecnologies i:hover {
+    color: #5D6D7E;
+    cursor: pointer;
+    font-size: 180px;
 }
 @media screen and (max-width: 400px) {
     body{
