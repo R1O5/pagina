@@ -5,6 +5,8 @@ body{
     background-image: url(assets/media/fondo.png);
     max-width: 100%;
     height: auto;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 /* configurando todos los assets */
 .logo {
