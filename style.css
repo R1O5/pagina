@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(assets/media/fondo.png);
+    max-width: 100%;
+    height: auto;
+}
+/* configurando todos los assets */
+.logo {
+    width: 130px;
+    margin: 12px 0 0 20px;
+}
+i {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 4px 0 4px 12px;
+}
+a {
+    font-size: 24px;
+    text-decoration: none;
+}
+/* contenerdores */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-nav {
+    display: flex;
+    align-items: center;
+    margin: 0 25px;
+}
+.container-nav .nav a {
+    color: #D0D3D4;
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    margin: 0 10px;
+    border: 1px solid #D0D3D4;
+    border-radius: 5px;
+}
+.container-nav .nav a:hover{
+    color: #5D6D7E;
+    cursor: pointer;
+    border: 1px solid #5D6D7E;
+}
+@media screen and (max-width: 400px) {
+    body{
+        background-image: url(assets/media/fondomb.png);
+    }
+}
